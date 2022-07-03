@@ -1,6 +1,7 @@
 body{
     font-family: 'Finlandica', sans-serif;
     margin: 0;
+    font-size: 18px;
 }
 h1{
   font-size: 50px;
@@ -21,7 +22,16 @@ h2{
 }
 section{
     display: flex;
+}
+.sec-one{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.sec-two{
+    margin-top: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width img{
     width: 100%;
@@ -36,4 +46,7 @@ section{
     color: white;
     font-weight: bold;
 
+}
+footer p{
+    text-align: center;
 }
