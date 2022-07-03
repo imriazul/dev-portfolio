@@ -1,3 +1,39 @@
 body{
     font-family: 'Finlandica', sans-serif;
+    margin: 0;
+}
+h1{
+  font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+}
+  
+.tomato-color{
+    color: tomato;
+}
+.half-width{
+    width: 50%;
+    margin-left: 6%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+}
+.half-width img{
+    width: 100%;
+    
+}
+.anchore-btn{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 45px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+
 }
