@@ -33,6 +33,12 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.sec-three{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
 .half-width img{
     width: 100%;
     
@@ -46,6 +52,18 @@ section{
     color: white;
     font-weight: bold;
 
+}
+.right{
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 3%;
+    border-radius: 5px;
+    border-left: 5px solid green;
+}
+.left{
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 3%;
+    border-radius: 5px;
+    border-left: 5px solid red;
 }
 footer p{
     text-align: center;
